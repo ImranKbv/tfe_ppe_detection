@@ -1,0 +1,86 @@
+# COCO 2017 dataset http://cocodataset.org - first 128 training images
+# Download command:  python -c "from yolov5.utils.google_utils import gdrive_download; gdrive_download('1n_oKgR81BJtqk75b00eAjdv03qVCQn2f','coco128.zip')"
+# Train command: python train.py --data ./data/coco128.yaml
+# Dataset should be placed next to yolov5 folder:
+#   /parent_folder
+#     /coco128
+#     /yolov5
+
+# PANORAMIC
+
+# train and val datasets (image directory or *.txt file with image paths)
+# train: ../../NEW/data/Panoramic/July28_val_on_July14/DataYOLO/images/train
+# val: ../../NEW/data/Panoramic/July28_val_on_July14/DataYOLO/images/val
+
+# nc: 15
+
+# # class names
+# names: ['AT', 'BL', 'CA', 'DC', 'RES', 'FUR', 'IT', 'IMP', 'PA', 'PI', 'PS', 'RCT', 'RCI', 'RS', 'FP']
+
+
+# BITEWING
+# # train and val datasets (image directory or *.txt file with image paths)
+# train: ../../NEW/data/Bitewings/July14/DataYOLO/images/train
+# val: ../../NEW/data/Bitewings/July14/DataYOLO/images/val
+
+# train: ../../NEW/data/Bitewings/All_v2/DataYOLO/images/train
+# val: ../../NEW/data/Bitewings/All_v2/DataYOLO/images/val
+
+# nc : 14
+# # class names
+# names : ['DC', 'PS', 'BL', 'CAL', 'PI', 'RES', 'AT', 'RS', 'DDC', 'RCT', 'FUR', 'FP', 'RES-O', 'IT']
+
+
+# PANORAMIC 3 CLASSES
+# # train and val datasets (image directory or *.txt file with image paths)
+# train: ../../NEW/data/Panoramic/July14/DataYOLO/images/train
+# val: ../../NEW/data/Panoramic/July14/DataYOLO/images/val
+
+# nc: 3
+
+# # class names
+# names: ['BL', 'DC', 'PI']
+
+
+# BITEWING 14
+# train and val datasets (image directory or *.txt file with image paths)
+# train: ../../NEW/data/Bitewings/July14/DataYOLO/images/train
+# val: ../../NEW/data/Bitewings/July14/DataYOLO/images/val
+
+# Test data July
+# val: ../../NEW/data/Bitewings/Test/July/images/val
+
+# nc : 14
+# # class names
+# names : ['DC', 'PS', 'BL', 'CAL', 'PI', 'RES', 'AT', 'FX', 'RS', 'DDC', 'RCT', 'FP', 'RES-O', 'IT']
+
+
+
+
+# ALL 17
+# train and val datasets (image directory or *.txt file with image paths)
+# train: ../../NEW/data/All/DataYOLO/images/train
+# val: ../../NEW/data/All/DataYOLO/images/val
+
+# nc: 17
+
+# names :  ['DC', 'BL', 'FUR', 'RES', 'PI', 'IT', 'RCT', 'FP', 'RCI', 'PS', 'CAL', 'AT', 'IMP', 'PA', 'RS', 'DDC', 'RES-O']
+
+
+# PERIAPICAL 17
+# train: ../../NEW/data/Periapical/DataYOLO/images/train
+# val: ../../NEW/data/Periapical/DataYOLO/images/val
+
+# nc: 17
+
+# names :  ['DC', 'BL', 'FUR', 'RES', 'PI', 'IT', 'RCT', 'FP', 'RCI', 'PS', 'CAL', 'AT', 'IMP', 'PA', 'RS', 'DDC', 'RES-O']
+
+
+# NewStrategy 3
+train: ../dataset/images/train
+val: ../dataset/images/val
+
+nc: 3
+
+names :  ['Person', 'Helmet', 'Vest']
+
